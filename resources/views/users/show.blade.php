@@ -17,7 +17,7 @@
                     </div>
                 </li>
                 <li>
-                    <div class="status-label">HAVE</div>
+                    <div class="status-label">LIKE</div>
                     <div id="have_count" class="status-value">
                         {{ $count_have }}
                     </div>

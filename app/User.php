@@ -29,7 +29,7 @@ class User extends Authenticatable
     
     public function items()
     {
-        return $this->belongsToMany(Item::class)->withPivot('type')->withTimestamps();
+        return $this->belongsToMany(Item::class,'item_user','user_id','item_id')->withPivot('type')->withTimestamps();
     }
 
     public function want_items()
